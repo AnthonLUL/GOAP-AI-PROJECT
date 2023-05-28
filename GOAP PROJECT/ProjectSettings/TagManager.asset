@@ -3,15 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tree
+  - Bed
+  - Shroom
+  - ShroomSpawnPoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enviroment
   - Water
   - UI
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -40,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Colission
+    uniqueID: 3978867615
+    locked: 0
+  - name: Ground
+    uniqueID: 273917835
+    locked: 0
+  - name: Secondary ground
+    uniqueID: 1951745355
+    locked: 0
+  - name: Character
+    uniqueID: 2442974345
     locked: 0
