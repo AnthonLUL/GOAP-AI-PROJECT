@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GetLogsGoal : BaseGoal
 {
-    public int Priority = 70;
+    public int Priority = 60;
     public override int CalculatePriority()
     {
         return Priority;
